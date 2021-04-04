@@ -9,6 +9,9 @@
     a little gross, but we haven't seen the tools
     to deal with it yet!
   */
+  max-width: 500px;
+  white-space: nowrap;
+  overflow-x: scroll;
   margin-bottom: 32px;
 }
 

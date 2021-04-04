@@ -44,36 +44,42 @@ function App() {
             options={bodyOptions}
             currentOption={body}
             handleSelectOption={setBody}
+            className={styles.individualColumn}
           />
           <ControlPane
             title="Heads"
             options={headOptions}
             currentOption={head}
             handleSelectOption={setHead}
+            className={styles.individualColumn}
           />
           <ControlPane
             title="Faces"
             options={faceOptions}
             currentOption={face}
             handleSelectOption={setFace}
+            className={styles.individualColumn}
           />
           <ControlPane
             title="Accessories"
             options={accessoryOptions}
             currentOption={accessory}
             handleSelectOption={setAccessory}
+            className={styles.individualColumn}
           />
           <ControlPane
             title="Skin Color"
             options={skinColorOptions}
             currentOption={skinColor}
             handleSelectOption={setSkinColor}
+            className={styles.individualColumn}
           />
           <ControlPane
             title="Clothing Color"
             options={clothesColorOptions}
             currentOption={clothesColor}
             handleSelectOption={setClothesColor}
+            className={styles.individualColumn}
           />
         </div>
       </MaxWidthWrapper>
